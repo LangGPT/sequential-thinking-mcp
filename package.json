@@ -1,6 +1,6 @@
 {
   "name": "@langgpt/sequential-thinking-mcp",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "LangGPT Demo: MCP server for sequential thinking and problem solving based on Anthropic's original implementation",
   "license": "MIT",
   "author": "LangGPT <contact@langgpt.ai>",
