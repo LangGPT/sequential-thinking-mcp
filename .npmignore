@@ -1,0 +1,40 @@
+# Only include essential files for NPM package
+
+# Source files (exclude)
+*.ts
+!*.d.ts
+tsconfig.json
+src/
+
+# Dependencies (exclude)
+node_modules/
+
+# Development files (exclude)
+.git/
+.gitignore
+.npmignore
+.dockerignore
+CLAUDE.md
+
+# Logs and temp files (exclude)
+*.log
+*.tmp
+*.temp
+.DS_Store
+.env*
+
+# Testing (exclude)
+test/
+tests/
+coverage/
+.nyc_output
+
+# IDE files (exclude)
+.vscode/
+.idea/
+
+# Only include these files:
+# - dist/ (built JavaScript)
+# - README.md (documentation)
+# - LICENSE (license file)
+# - package.json (package info)
